@@ -1,0 +1,53 @@
+package csvs
+
+const (
+	LOGIC_FALSE = 0
+	LOGIC_TRUE  = 1
+
+	PERCENT_ALL = 10000
+)
+
+const (
+	DROP_ITEM_TYPE_ITEM   = 1
+	DROP_ITEM_TYPE_GROUP  = 2
+	DROP_ITEM_TYPE_WEIGHT = 3
+)
+
+const (
+	EVENT_START  = 0
+	EVENT_FINISH = 9
+	EVENT_END    = 10
+
+	EVENT_TYPE_NOMAL  = 1
+	EVENT_TYPE_REWARD = 2
+)
+const (
+	MAP_REFRESH_DAY  = 1
+	MAP_REFRESH_WEEK = 2
+	MAP_REFRESH_SELF = 3
+	MAP_REFRESH_CANT = 4
+
+	MAP_REFRESH_DAY_TIME  = 20
+	MAP_REFRESH_WEEK_TIME = 40
+	MAP_REFRESH_SELF_TIME = 60
+
+	REFRESH_SYSTEM = 1
+	REFRESH_PLAYER = 2
+)
+
+const (
+	REDUCE_WORLD_LEVEL_START         = 5  //降低世界等级的要求
+	REDUCE_WORLD_LEVEL_MAX           = 1  //最多能降低多少级
+	REDUCE_WORLD_LEVEL_COOL_TIME     = 10 //降低的冷却时间 s
+	SHOW_SIZE                        = 9  //尺寸
+	ADD_ROLE_NORMAL_TIME_MIN         = 2  //
+	ADD_ROLE_NORMAL_TIME_MAX         = 7  //
+	WEAPON_MAX_COUNT                 = 2000
+	RELICS_MAX_COUNT                 = 1500
+	FIVE_STAR_TIMES_LIMIT            = 73
+	FIVE_STAR_TIMES_LIMIT_EACH_VALUE = 60
+	FOUR_STAR_TIMES_LIMIT            = 9
+	FOUR_STAR_TIMES_LIMIT_EACH_VALUE = 5100
+	ALL_ENTRY_RATE                   = 2000
+	WEAPON_MAX_REFINE                = 5
+)
